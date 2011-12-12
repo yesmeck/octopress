@@ -33,7 +33,7 @@ date: 2011-06-07 23:31:35 +08:00
 	<li><a title="PerDirVimrc" href="http://www.vim.org/scripts/script.php?script_id=2792" target="_blank">PerDirVimrc</a></li>
 </ul>
 现在我们安装了上面那些脚本，差不多快完成了。你只需要把下面的内容复制倒你Home目录下的.vimrc里。
-{% highlight bash %}
+``` vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ~/.vimrc                                                      "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -182,14 +182,14 @@ endfunction
  
 set errorformat+=\"%f\"\\,%l\\,%c\\,%t%*[a-zA-Z]\\,\"%m\"
 command! Phpcs execute RunPhpcs()
-{% endhighlight %}
+```
 
 好了，设置完毕。下面这些快捷命令来让你开始适用刚才启用的所有功能。
 
 **F3**：打开项目管理
 
 **\C**：在打开项目管理后，用这个新建项目
-*
+
 **F8**：打开标签列表
 
 **Ctrl+L**：在你的PHP文件上运行语法检查

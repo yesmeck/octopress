@@ -8,10 +8,10 @@ date: 2011-03-09 09:05:37 +08:00
 ---
 总有一些js写得你内牛满面。
 
-{% highlight javascript %}
+``` javascript
 function BlockError()
 {
     return true;
 }
 window.onerror = BlockError;
-{% endhighlight %}
+``` javascript
