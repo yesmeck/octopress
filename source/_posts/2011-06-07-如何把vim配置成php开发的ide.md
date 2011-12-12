@@ -1,4 +1,5 @@
 --- 
+comments: true
 layout: post
 title: "如何把Vim配置成PHP开发的IDE"
 category: 求生技能

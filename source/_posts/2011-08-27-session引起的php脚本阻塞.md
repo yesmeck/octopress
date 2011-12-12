@@ -1,4 +1,5 @@
 --- 
+comments: true
 layout: post
 title: "Session引起的PHP脚本阻塞"
 category: 求生技能

@@ -1,4 +1,5 @@
 --- 
+comments: true
 layout: post
 title: "阻止JavaScript报错"
 category: 求生技能

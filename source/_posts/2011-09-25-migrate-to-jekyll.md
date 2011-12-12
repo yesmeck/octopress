@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "把Wordpress换成Jekyll了"
 category: 瞎折腾

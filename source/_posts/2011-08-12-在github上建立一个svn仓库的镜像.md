@@ -1,4 +1,5 @@
 --- 
+comments: true
 layout: post
 title: "在GitHub上建立一个SVN仓库的镜像"
 category: 求生技能
