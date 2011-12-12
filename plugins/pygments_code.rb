@@ -39,3 +39,5 @@ module HighlightCode
     table += "</pre></td><td class='code'><pre><code class='#{lang}'>#{code}</code></pre></td></tr></table></div>"
   end
 end
+
+RubyPython.configure :python_exe => 'python2.7'
