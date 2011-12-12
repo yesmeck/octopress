@@ -1,0 +1,23 @@
+<div id="primary" class="widget-area" role="complementary">
+	<ul class="xoxo">
+		<li id="recent-posts-2" class="widget-container widget_recent_entries">
+			<h3 class="widget-title">近期文章</h3>
+			<ul>
+            {% for post in site.posts limit:5 %}
+				<li>
+                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+			</ul>
+
+		</li>
+		<li id="linkcat-2" class="widget-container widget_mylinkorder"><h3 class="widget-title">链接</h3>
+			<ul class='xoxo blogroll'>
+				<li><a href="https://github.com/yesmeck" title="我的GitHub" target="_blank">我的GitHub</a></li>
+				<li><a href="http://www.douban.com/people/coolzi/" title="我的豆瓣" target="_blank">我的豆瓣</a></li>
+				<li><a href="http://piaoliuping.me" title="豆瓣漂流瓶" target="_blank">豆瓣漂流瓶</a></li>
+				<li><a href="http://www.sshcenter.info/?ref=9355" title="好用的SSH代理" target="_blank">好用的SSH代理</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
