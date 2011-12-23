@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use git pre-commit hook to check unwanted trailling whitespace"
+title: "Use git pre-commit hook to check unwanted trailing whitespace"
 date: 2011-12-15 23:13
 comments: true
 categories: 求生技能 
