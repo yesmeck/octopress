@@ -6,7 +6,7 @@ comments: true
 categories: 求生技能
 ---
 
-Last post I write a simple script to make git check trailing whitespace 
+Last post I wrote a simple script to make git check trailing whitespace 
 before committing.Today, I improve the script to make git automatically
 remove whitespace for us.
 
